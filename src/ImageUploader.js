@@ -53,7 +53,7 @@ function ImageUploader() {
     formData.append("file", file);
     try {
       const response = await axios.post(
-        "http://localhost:8000/files",
+        "http://localhost:8001/predict",
         formData,
         {
           headers: {

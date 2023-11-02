@@ -7,7 +7,7 @@ function RetinosPage() {
     <div className="retinos-container">
       <div className="retinos-header">
         <FaEye />
-        <h1>RETINOS</h1>
+        <h1>THREAT ALERT</h1>
       </div>
       <div className="retinos-content">
         {/* Add content here */}
